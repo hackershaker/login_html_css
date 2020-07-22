@@ -1,0 +1,12 @@
+div{ 
+    background-color:red;
+}
+<!--이미지 선택자-->
+img{
+    width:100px;
+}
+/* 클래스 */
+.div{
+    background-color:rgb(92, 198, 240);
+    color:white;
+}

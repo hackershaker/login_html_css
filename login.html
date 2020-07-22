@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!--div.div 하고 탭 누르면 빠르게 작성 가능. 아이디는 div#div --> 
+    <div class=div>
+    <form action='https://server.ai-school.com' method='post'>
+        <label for='userid'>아이디</label>
+        &nbsp;&nbsp;&nbsp;<input id='userid' type='text' name='userid' placeholder="아이디 입력 ">
+        <br>
+        <label for='userpw'>비밀번호</label>
+        <input id='userpw' type="password" name='password' placeholder="비밀번호 입력">
+        비밀번호 질문
+        <li>
+            <ul>
+                본인이 태어난 곳은?
+                <select name='비밀번호 질문''>
+                    <option value=' 서울'>서울</option>
+                    <option value='대전'>대전</option>
+                    <option value='광주'>광주</option>
+                </select>
+            </ul>
+        </li>
+        <br>
+        
+        <br>
+        
+        <br>
+        <textarea name="content" rows="10" cols="50">
+            자기소개를 작성해주세요
+        </textarea>
+        <br>
+        <button name="전송" type="submit">
+            전송하기
+        </button>
+        <input value="전송하기" type="submit" name="button">
+    </form>
+    </div>
+</body>
+
+</html>
